@@ -19,7 +19,7 @@ type Props = {
  allPostsData: {
 id: string
 title: string
-data: string
+date: string
 }[]
 }
 
