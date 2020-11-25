@@ -23,7 +23,7 @@ date: string
 }[]
 }
 
-export default function Home({ allPostsData}:Props) {
+export default function Home({ allPostsData }:Props) {
   return (
     <Layout home>
       <Head>
