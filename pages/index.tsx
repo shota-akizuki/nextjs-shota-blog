@@ -8,7 +8,12 @@ export default () => {
       <div className={sharedStyles.layout}>
         <h1>Shota Akizuki</h1>
         <div>
-          <img src="/bosatsu.png" alt="bosatsu" height="200" width="720" />
+          <img
+            src="/static/bosatsu.png"
+            alt="bosatsu"
+            height="200"
+            width="720"
+          />
         </div>
       </div>
     </>
