@@ -8,7 +8,7 @@ export default () => (
     <div className={sharedStyles.layout}>
       <h1 className={sharedStyles.title}>Works</h1>
       <p className={contactStyles.links}>
-        Urguement on the Ice（2009~2016:活動休止中）
+        Urguement on the Ice（2017~: 活動休止中）
       </p>
     </div>
   </>

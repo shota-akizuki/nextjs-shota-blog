@@ -11,7 +11,7 @@ export default () => {
         </h1>
         <h2>-Aritist Website-</h2>
 
-        <img src="/static/bosatsu.png" alt="bosatsu" width="720" />
+        <img src="/static/senju_bosatsu.jpg" alt="bosatsu" width="420" />
       </div>
     </>
   );
