@@ -6,15 +6,8 @@ export default () => {
     <>
       <Header titlePre="Home" />
       <div className={sharedStyles.layout}>
-        <h1>Shota Akizuki</h1>
-        <div>
-          <img
-            src="/static/bosatsu.png"
-            alt="bosatsu"
-            height="200"
-            width="720"
-          />
-        </div>
+        <h1 style={{ fontSize: 48 }}>Shota Akizuki</h1>
+        <img src="/static/bosatsu.png" alt="bosatsu" width="720" />
       </div>
     </>
   );

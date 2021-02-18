@@ -21,15 +21,13 @@
   display: block;
   text-align: center;
   margin: 1rem 0;
-  clip-path: circle(40%);
 }
 
 .avatar img {
-  height: 120px;
+  clip-path: circle(40%);
 }
 
 .name {
-  margin-top: 0px;
   text-align: center;
 }
 
@@ -39,9 +37,9 @@
 }
 
 .title {
+  font-size: 48px;
   margin-top: 0px;
-  font-size: 32px;
-  background-image: linear-gradient(90deg, #e73e3c 35%, #f5b827 65%);
+  background-image: linear-gradient(90deg, #0b68ea 35%, #1cd5cf 65%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: black;
