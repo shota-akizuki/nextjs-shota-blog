@@ -35,10 +35,7 @@ export default () => (
         alt="shota"
         width="180"
       />
-      <h1
-        className={profileStyles.name}
-        style={{ fontSize: 24, marginTop: -8 }}
-      >
+      <h1 className={profileStyles.title} style={{ fontSize: 24 }}>
         Shota Akizuki
       </h1>
       <h2 className={profileStyles.name2} style={{ fontSize: 24 }}>

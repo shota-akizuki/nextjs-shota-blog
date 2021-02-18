@@ -6,9 +6,9 @@
 
   --bg: #fff;
   --fg: #000;
-  --accents-1: #111;
-  --accents-2: #333;
-  --accents-3: #888;
+  --accents-1: #12191f;
+  --accents-2: #24323d;
+  --accents-3: #2e3e4d;
   --geist-foreground: #000;
 
   --radius: 8px;
@@ -174,7 +174,7 @@ h2 {
 }
 
 p {
-  color: #555;
+  color: #40576b;
   font-weight: 400;
   font-size: 0.94rem;
   line-height: 1.7;
@@ -231,6 +231,6 @@ footer {
 }
 
 footer span {
-  color: #777777;
+  color: #40576b;
   font-size: 16px;
 }
