@@ -30,15 +30,21 @@ export default () => (
     <Header titlePre="Profile" />
     <div className={sharedStyles.layout}>
       <img
-        className={contactStyles.avatar}
-        src="/static/shota.jpg"
+        className={profileStyles.avatar}
+        src="/static/shota.JPG"
         alt="shota"
         width="180"
       />
-      <h2 className={contactStyles.name}>Shota Akizuki</h2>
-      <h2 className={profileStyles.name} style={{ fontSize: 24 }}>
-        Artist / Guitarist
+      <h1
+        className={profileStyles.name}
+        style={{ fontSize: 24, marginTop: -8 }}
+      >
+        Shota Akizuki
+      </h1>
+      <h2 className={profileStyles.name2} style={{ fontSize: 24 }}>
+        Vocal / Guitar / Composer
       </h2>
+      <h2 className={profileStyles.name} style={{ fontSize: 16 }}></h2>
       <div className={contactStyles.links}>
         {contacts.map(({ Comp, link, alt }) => {
           return (

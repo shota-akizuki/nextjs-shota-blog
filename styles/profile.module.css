@@ -21,13 +21,15 @@
   display: block;
   text-align: center;
   margin: 1rem 0;
+  /* 要素をまるにくり抜く。circle(サイズ at x座標 y座標) */
+  clip-path: circle(40% at 87px 132px);
 }
 
-.avatar img {
-  clip-path: circle(40%);
+.name1 {
+  text-align: center;
+  color: #1b252e;
 }
-
-.name {
+.name2 {
   text-align: center;
 }
 

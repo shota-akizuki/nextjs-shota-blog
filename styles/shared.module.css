@@ -21,7 +21,7 @@
   margin-top: -8px;
   font-size: 48px;
   /* linear-gradient(to 方向, 開始色 位置の値%, 終了色 位置の値%,); */
-  background-image: linear-gradient(90deg, #0b68ea 35%, #1cd5cf 65%);
+  background-image: linear-gradient(180deg, #090c0f 10%, #52708a 100%);
   -webkit-text-fill-color: transparent;
   /* textの形にbackgroundをくり抜く */
   -webkit-background-clip: text;

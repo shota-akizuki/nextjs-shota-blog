@@ -16,12 +16,9 @@ export default ({ titlePre = "" }) => {
   return (
     <header className={styles.header}>
       <Head>
-        <title>{titlePre ? `${titlePre} |` : ""} Shota Developer Website</title>
-        <meta
-          name="description"
-          content="An example Next.js site using Notion for the blog"
-        />
-        <meta name="og:title" content="Shota Developer Website" />
+        <title>{titlePre ? `${titlePre} |` : ""} Shota Artist Webite</title>
+        <meta name="description" content="Next.js site" />
+        <meta name="og:title" content="Shota Artist Site" />
       </Head>
       <ul>
         {navItems.map(({ label, page, link }) => (

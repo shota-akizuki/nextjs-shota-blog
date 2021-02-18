@@ -4,7 +4,7 @@ import contactStyles from "../styles/contact.module.css";
 
 export default () => (
   <>
-    <Header titlePre="Contact" />
+    <Header titlePre="Works" />
     <div className={sharedStyles.layout}>
       <h1>Works</h1>
       <p className={contactStyles.links}>
