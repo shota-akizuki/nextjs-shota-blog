@@ -11,13 +11,13 @@ const contacts = [
   {
     Comp: Twitter,
     alt: "twitter icon",
-    link: "https://twitter.com/shota_akizuki",
+    link: "https://twitter.com/AkizukiShota",
   },
-  {
-    Comp: Instagram,
-    alt: "instagram icon",
-    link: "https://www.instagram.com/shota_akizuki",
-  },
+  // {
+  //   Comp: Instagram,
+  //   alt: "instagram icon",
+  //   link: "https://www.instagram.com/shota_akizuki",
+  // },
   {
     Comp: Envelope,
     alt: "envelope icon",
@@ -39,7 +39,7 @@ export default () => (
         Shota Akizuki
       </h1>
       <h2 className={profileStyles.name2} style={{ fontSize: 24 }}>
-        Vocal / Guitar / Composer
+        Vocalist / Guitarist / Composer
       </h2>
       <h2 className={profileStyles.name} style={{ fontSize: 16 }}></h2>
       <div className={contactStyles.links}>

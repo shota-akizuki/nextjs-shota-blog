@@ -10,7 +10,6 @@ export default () => {
           Shota Akizuki
         </h1>
         <h2>-Aritist Website-</h2>
-
         <img src="/static/senju_bosatsu.jpg" alt="bosatsu" width="420" />
       </div>
     </>
