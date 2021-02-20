@@ -1,7 +1,6 @@
 import Header from "../components/header";
 import ExtLink from "../components/ext-link";
 import sharedStyles from "../styles/shared.module.css";
-import contactStyles from "../styles/contact.module.css";
 import profileStyles from "../styles/profile.module.css";
 import Envelope from "../components/svgs/envelope";
 import Instagram from "../components/svgs/instagram";
@@ -25,7 +24,7 @@ const contacts = [
   },
 ];
 
-export default () => (
+const Profile = () => (
   <>
     <Header titlePre="Profile" />
     <div className={sharedStyles.layout}>
@@ -42,7 +41,7 @@ export default () => (
         Vocalist / Guitarist / Composer
       </h2>
       <h2 className={profileStyles.name} style={{ fontSize: 16 }}></h2>
-      <div className={contactStyles.links}>
+      <div className={profileStyles.links}>
         {contacts.map(({ Comp, link, alt }) => {
           return (
             <ExtLink key={link} href={link} aria-label={alt}>
@@ -54,3 +53,5 @@ export default () => (
     </div>
   </>
 );
+
+export default Profile;

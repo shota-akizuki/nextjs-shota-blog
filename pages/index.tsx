@@ -1,7 +1,7 @@
 import Header from "../components/header";
 import sharedStyles from "../styles/shared.module.css";
 
-export default () => {
+const Home = () => {
   return (
     <>
       <Header titlePre="Home" />
@@ -15,3 +15,5 @@ export default () => {
     </>
   );
 };
+
+export default Home;
