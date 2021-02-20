@@ -11,12 +11,12 @@ const contacts = [
   {
     Comp: Twitter,
     alt: "twitter icon",
-    link: "https://twitter.com/AkizukiShota",
+    link: "https://twitter.com/shota_akizuki",
   },
   {
     Comp: Instagram,
     alt: "instagram icon",
-    link: "https://www.instagram.com/akizukishota/",
+    link: "https://www.instagram.com/shota_akizuki/",
   },
   {
     Comp: Envelope,
