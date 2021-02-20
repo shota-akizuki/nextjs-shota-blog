@@ -32,7 +32,6 @@ const Profile = () => (
         className={profileStyles.avatar}
         src="/static/shota.JPG"
         alt="shota"
-        width="180"
       />
       <h1 className={profileStyles.title} style={{ fontSize: 24 }}>
         Shota Akizuki

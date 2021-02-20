@@ -21,6 +21,7 @@
   display: block;
   text-align: center;
   margin: 1rem 0;
+  width: 180px;
   /* 要素をまるにくり抜く。circle(サイズ at x座標 y座標) */
   clip-path: circle(40% at 87px 132px);
 }
