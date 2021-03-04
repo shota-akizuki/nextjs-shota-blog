@@ -7,9 +7,7 @@ const Works = () => (
     <Header titlePre="Works" />
     <div className={sharedStyles.layout}>
       <h1 className={sharedStyles.title}>Works</h1>
-      <p className={profileStyles.links}>
-        Urguement on the Ice（2017~: 活動休止中）
-      </p>
+      <p className={profileStyles.links}>Coming Soon...</p>
     </div>
   </>
 );

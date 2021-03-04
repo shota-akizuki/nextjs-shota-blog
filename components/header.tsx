@@ -7,7 +7,7 @@ import styles from "../styles/header.module.css";
 const navItems: { label: string; page?: string; link?: string }[] = [
   { label: "Home", page: "/" },
   { label: "Profile", page: "/profile" },
-  { label: "Works", page: "/works" },
+  // { label: "Works", page: "/works" },
 ];
 
 export default ({ titlePre = "" }) => {
