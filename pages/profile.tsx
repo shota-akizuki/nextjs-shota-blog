@@ -33,10 +33,13 @@ const Profile = () => (
         src="/static/shota.JPG"
         alt="shota"
       />
-      <h1 className={profileStyles.title} style={{ fontSize: 24 }}>
+      <h1 className={profileStyles.title} style={{ fontSize: 32 }}>
         Shota Akizuki
       </h1>
-      <h2 className={profileStyles.name2} style={{ fontSize: 24 }}>
+      <h2
+        className={profileStyles.name2}
+        style={{ fontSize: 24, marginTop: -4 }}
+      >
         Vocalist / Guitarist / Composer
       </h2>
       <h2 className={profileStyles.name} style={{ fontSize: 16 }}></h2>

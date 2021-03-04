@@ -7,7 +7,7 @@ export default () => {
       <Divider style={{ margin: 24 }} />
       <span>Copyright©Shota Akizuki All rights reserved.</span>
       <div>
-        <span>Built with Vercel App.</span>
+        <span>Powered by Vercel.</span>
       </div>
     </footer>
   );
